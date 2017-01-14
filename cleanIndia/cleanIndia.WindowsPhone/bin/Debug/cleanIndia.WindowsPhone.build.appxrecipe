@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-OPGC4L7</Machine>
+    <WindowsUser>Bikram Bharti</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>261b25f8-cb17-4f7b-90a6-c02886cc7f0a</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\bin\Debug\cleanIndia.WindowsPhone.exe">
+      <PackagePath>cleanIndia.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\bin\Debug\Registration.xbf">
+      <PackagePath>Registration.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\bin\Debug\cleanIndia.WindowsPhone.xr.xml">
+      <PackagePath>cleanIndia.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

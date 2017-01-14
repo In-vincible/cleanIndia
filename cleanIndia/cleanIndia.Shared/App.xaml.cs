@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,6 +16,19 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
+using Windows.Devices.Geolocation;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Net;
+using Windows.Web.Http;
+using System.Text;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Threading;
 
 // The Blank Application template is documented at http://go.microsoft.com/fwlink/?LinkId=234227
 
@@ -133,5 +147,30 @@ namespace cleanIndia
             // TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+        public async void register()
+        {
+           
+            // HTTP web request
+
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create("https://immense-cliffs-95646.herokuapp.com/validate/");
+            httpWebRequest.ContentType = "text/plain; charset=utf-8";
+            httpWebRequest.Method = "POST";
+
+            // Write the request Asynchronously 
+            using (var stream = await Task.Factory.FromAsync<Stream>(httpWebRequest.BeginGetRequestStream,
+                                                                     httpWebRequest.EndGetRequestStream, null))
+            {
+                //create some json string
+                string json = "{ \"email\" : \"bikram.bharti99@gmail.com\" }";
+
+                // convert json to byte array
+                byte[] jsonAsBytes = Encoding.UTF8.GetBytes(json);
+
+                // Write the bytes to the stream
+                await stream.WriteAsync(jsonAsBytes, 0, jsonAsBytes.Length);
+            }
+             
+        }
+        
     }
 }

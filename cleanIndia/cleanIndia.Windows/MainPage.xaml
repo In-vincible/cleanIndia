@@ -8,6 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox HorizontalAlignment="Left" Name="position" PlaceholderText="Email" Margin="288,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="105" Width="392"/>
+        <TextBox Name="shit" HorizontalAlignment="Left" PlaceholderText="Password" Margin="288,282,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="95" Width="410"/>
+        <Button Content="Login" HorizontalAlignment="Left"  Margin="370,498,0,0" VerticalAlignment="Top" Height="198" Width="388" Click="Button_Click"/>
 
     </Grid>
 </Page>
