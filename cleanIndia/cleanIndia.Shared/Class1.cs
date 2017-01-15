@@ -52,6 +52,7 @@ namespace cleanIndia
             }
         }
         */
+        /*
         public async static void register(string url,RegisterData data)
         {
             IEnumerable<KeyValuePair<string, string>> emails = new List<KeyValuePair<string, string>>()
@@ -68,7 +69,7 @@ namespace cleanIndia
             {
                 //client.GetAsync()
                 // HttpResponseMessage response = client.GetAsync("http://www.google.co.in");
-                client.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/json");
+                client.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "x-www-form-urlencoded");
                 using (HttpResponseMessage response = await client.PostAsync(url, q))
                 {
                     using (HttpContent content = response.Content)
@@ -80,14 +81,20 @@ namespace cleanIndia
                         //JsonObject result = data as JsonObject;
                         JsonObject dataJson = JsonObject.Parse(mycontent);
                         Debug.WriteLine(dataJson);
-                        double g = dataJson.GetNamedNumber("status"); 
-                        Debug.WriteLine(g);
+                        double g = dataJson.GetNamedNumber("status");
+                        string name = dataJson.GetNamedString("name");
+                        string email = dataJson.GetNamedString("email");
+                        string mobileNumber = dataJson.GetNamedString("mobileNumber");
+                        
+                        //Debug.WriteLine(g);
+                        //Debug.WriteLine(mycontent);
                     }
 
 
                 }
             }
         }
+         * */
 
     }
 }

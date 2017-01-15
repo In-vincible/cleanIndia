@@ -13,6 +13,10 @@ namespace cleanIndia
             password = Password;
             phoneNumber = PhoneNumber;
         }
+        public RegisterData()
+        {
+
+        }
        public string name { get; set; }
        public string email { get; set; }
        public string password { get; set; }

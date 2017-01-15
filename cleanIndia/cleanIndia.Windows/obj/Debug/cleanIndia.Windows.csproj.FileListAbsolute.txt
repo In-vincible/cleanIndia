@@ -34,3 +34,8 @@ C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanInd
 C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\obj\Debug\cleanIndia.Windows.csproj.GenerateResource.Cache
+C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\obj\Debug\Registration.g.i.cs
+C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\obj\Debug\Registration.g.cs
+C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\obj\Debug\Registration.xaml
+C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\obj\Debug\Registration.xbf
+C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\Registration.xbf

@@ -39,13 +39,8 @@ namespace cleanIndia
             this.InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
 
-            
-            //Class1.PostRequestaa("http://technexuser.herokuapp.com/api/register/");
-        }
-
+        
         
 
 

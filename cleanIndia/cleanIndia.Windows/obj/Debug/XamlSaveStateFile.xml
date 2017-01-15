@@ -1,6 +1,7 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\cleanindia\cleanindia.windows\obj\debug\intermediatexaml\cleanindia.windows.exe" HashGuid="11d43760-a519-211c-6e2b-386712848990" />
+    <LocalAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\cleanindia\cleanindia.windows\obj\debug\intermediatexaml\cleanindia.windows.exe" HashGuid="6a16f671-6480-65b0-0d63-bd7bbda5571b" />
+    <ReferenceAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\packages\aforge.2.2.5\lib\aforge.dll" HashGuid="ca02c8e4-3ff5-e5b7-7b34-c688fb006e03" />
     <ReferenceAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\packages\newtonsoft.json.9.0.1\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="424e6aa8-ba94-c678-e707-af9fe9838e1a" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

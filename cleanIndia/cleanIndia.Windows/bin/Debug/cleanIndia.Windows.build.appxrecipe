@@ -44,6 +44,9 @@
     <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\Registration.xbf">
+      <PackagePath>Registration.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\cleanIndia.Windows.xr.xml">
       <PackagePath>cleanIndia.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>

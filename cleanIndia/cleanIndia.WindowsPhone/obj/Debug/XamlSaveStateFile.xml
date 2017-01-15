@@ -1,6 +1,13 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\cleanindia\cleanindia.windowsphone\obj\debug\intermediatexaml\cleanindia.windowsphone.exe" HashGuid="5a31b73e-1e2c-5f5a-ad14-1737ca3ecf26" />
+    <LocalAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\cleanindia\cleanindia.windowsphone\obj\debug\intermediatexaml\cleanindia.windowsphone.exe" HashGuid="1e9f908e-2299-ca7c-0930-18b546f861ee" />
+    <ReferenceAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\packages\aforge.controls.2.2.5\lib\aforge.controls.dll" HashGuid="02de38e1-eee3-20ea-4ae0-9ad93ac73a45" />
+    <ReferenceAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\packages\aforge.2.2.5\lib\aforge.dll" HashGuid="ca02c8e4-3ff5-e5b7-7b34-c688fb006e03" />
+    <ReferenceAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\packages\aforge.imaging.2.2.5\lib\aforge.imaging.dll" HashGuid="6542f4f1-1569-9d96-e115-00a065274f82" />
+    <ReferenceAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\packages\aforge.math.2.2.5\lib\aforge.math.dll" HashGuid="23ef1968-e0d1-7e75-47e0-d28201946f04" />
+    <ReferenceAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\packages\aforge.video.directshow.2.2.5\lib\aforge.video.directshow.dll" HashGuid="c89353fa-b20d-dca2-4351-f71506efead7" />
+    <ReferenceAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\packages\aforge.video.2.2.5\lib\aforge.video.dll" HashGuid="6b6aeed5-0447-cd43-9bf1-849d9ffe8651" />
+    <ReferenceAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\packages\aforge.vision.2.2.5\lib\aforge.vision.dll" HashGuid="6dccacf0-01a4-22d1-6b22-0eaee0b7927a" />
     <ReferenceAssembly PathName="c:\users\bikram bharti\documents\visual studio 2013\projects\cleanindia\packages\newtonsoft.json.9.0.1\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="424e6aa8-ba94-c678-e707-af9fe9838e1a" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
