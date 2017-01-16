@@ -19,6 +19,9 @@
     <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\cleanIndia.Windows.exe">
       <PackagePath>cleanIndia.Windows.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\packages\AForge.2.2.5\lib\AForge.dll">
+      <PackagePath>AForge.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>

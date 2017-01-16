@@ -8,9 +8,19 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox HorizontalAlignment="Left" Name="position" PlaceholderText="Email" Margin="288,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="105" Width="392"/>
-        <TextBox Name="shit" HorizontalAlignment="Left" PlaceholderText="Password" Margin="288,282,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="95" Width="410"/>
-        <Button Content="Login" HorizontalAlignment="Left"  Margin="370,498,0,0" VerticalAlignment="Top" Height="198" Width="388" Click="Button_Click"/>
+        <!--
+        <StackPanel Orientation="Horizontal" Margin="72,0,0,0">
+            <TextBox Name="TextInput" Margin="5" MaxHeight="40" MinWidth="300"></TextBox>
+            <AppBarButton Name="btnTakePhoto" Icon="Camera" Click="OnTakePhotoClick" />
+            <AppBarButton Name="ButtonSave" Icon="Upload"  Click="ButtonSave_Click"/>
+            <Image Width="100" x:Name="capturePreview"/>
+            <Image Width="100" x:Name="imagePreivew" />
+        </StackPanel>
+    -->
+        <Button Content="ClickMe" HorizontalAlignment="Left" Height="67" Margin="124,112,0,0" VerticalAlignment="Top" Width="289" Click="Button_Click"/>
+        <Image x:Name="img" HorizontalAlignment="Left" Height="349" Margin="512,82,0,0" VerticalAlignment="Top" Width="373"/>
+        <TextBlock x:Name="FileNameTextBlock" HorizontalAlignment="Left" Height="72" Margin="127,225,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="283"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="578,112,0,0" VerticalAlignment="Top" Height="168" Width="310" Click="Button_Click_1"/>
 
     </Grid>
 </Page>

@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>181c895f-f0dd-4c00-8d3f-f1bacd2846c6</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>2A7F7D87C53D77891D10CE4E004D3C5C91CE1F058AA2FDE4874643526757911B</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>8520E1DCDD60BFD709017541B4CD427D25DC0323500D11E85393263ABACC7CE9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>181c895f-f0dd-4c00-8d3f-f1bacd2846c6_1.0.0.0_neutral__ftf9x1p34a48j</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>181c895f-f0dd-4c00-8d3f-f1bacd2846c6_ftf9x1p34a48j!App</RegisteredUserModeAppID>
     <RegisteredPackageID>181c895f-f0dd-4c00-8d3f-f1bacd2846c6</RegisteredPackageID>
@@ -20,13 +20,17 @@
     <AppXManifest Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-15T08:32:18.734</Modified>
+      <Modified>2017-01-16T10:19:26.471</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\cleanIndia.Windows.exe">
       <PackagePath>cleanIndia.Windows.exe</PackagePath>
-      <Modified>2017-01-15T09:36:20.035</Modified>
+      <Modified>2017-01-16T15:03:38.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\packages\AForge.2.2.5\lib\AForge.dll">
+      <PackagePath>AForge.dll</PackagePath>
+      <Modified>2017-01-15T14:20:23.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -58,7 +62,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2017-01-14T20:07:57.345</Modified>
+      <Modified>2017-01-16T13:51:00.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\Registration.xbf">
       <PackagePath>Registration.xbf</PackagePath>
@@ -66,11 +70,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\cleanIndia.Windows.xr.xml">
       <PackagePath>cleanIndia.Windows.xr.xml</PackagePath>
-      <Modified>2017-01-15T09:11:13.033</Modified>
+      <Modified>2017-01-16T10:19:25.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2017-01-15T08:32:18.496</Modified>
+      <Modified>2017-01-16T10:19:26.279</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

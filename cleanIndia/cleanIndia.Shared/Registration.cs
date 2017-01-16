@@ -22,33 +22,18 @@ using Windows.UI.Popups;
 using System.Globalization;
 using System.Text.RegularExpressions;
 using Windows.UI.Xaml.Media.Imaging;
-using Windows.Foundation;
+
 using Windows.Media.Capture;
 using Windows.Storage;
 using Windows.Storage.AccessCache;
 using Windows.Storage.Streams;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Media.Imaging;
-using Windows.UI.Xaml.Navigation;
-//using SDKTemplate;
-using System;
 using System.Collections.ObjectModel;
-using System.Threading.Tasks;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.IO;
-using System.Threading.Tasks;
-using System.Threading.Tasks.Task;
 
 namespace cleanIndia
 {
     sealed partial class Registration : Page
     {
-        
+         
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string Name = uname.Text;
@@ -58,7 +43,7 @@ namespace cleanIndia
             RegisterData holder = new RegisterData(Name, Email, Number, pass);
             string url = "http://localhost:8000/api/registration/";
             
-            register(url, holder);
+            //register(url, holder);
             //test.Text = (App.Current as App).GName;
             //this.Frame(typeof(Registration));
             //Class1.PostRequestaa("http://technexuser.herokuapp.com/api/register/");
@@ -77,7 +62,7 @@ namespace cleanIndia
                 
             };
             HttpContent q = new FormUrlEncodedContent(emails);
-
+            
             using (HttpClient client = new HttpClient())
             {
                 //client.GetAsync()
@@ -119,29 +104,40 @@ namespace cleanIndia
 
         public static async Task<string> Upload(byte[] image)
         {
+            Debug.WriteLine("code base 1");
             using (var client = new HttpClient())
             {
+                client.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "multipart/form-data");
                 using (var content =
-                    new MultipartFormDataContent("Upload----" + DateTime.Now.ToString(CultureInfo.InvariantCulture)))
+                    new MultipartFormDataContent())//"Upload----" + DateTime.Now.ToString(CultureInfo.InvariantCulture)))
                 {
                     content.Add(new StreamContent(new MemoryStream(image)), "bilddatei", "upload.jpg");
-
+                    
+           IEnumerable<KeyValuePair<string, string>> emails = new List<KeyValuePair<string, string>>()
+            {
+                new KeyValuePair<string,string>("email","b@c.com"),
+                new KeyValuePair<string,string>("longitude","12"),
+                new KeyValuePair<string,string>("latitude","12"),
+                new KeyValuePair<string,string>("title","whatever"),
+                
+            };
+           HttpContent q = new FormUrlEncodedContent(emails);
+           content.Add(q,"data");
+           Debug.WriteLine("code base 2");
                     using (
                        var message =
-                           await client.PostAsync("http://www.directupload.net/index.php?mode=upload", content))
+                           await client.PostAsync("http://localhost:8000/api/photoComplaint/", content))
                     {
-                        var input = await message.Content.ReadAsStringAsync();
-
+                        string input = await message.Content.ReadAsStringAsync();
+                        JsonObject dataJson = JsonObject.Parse(input);
+                        Debug.WriteLine(dataJson.GetNamedString("status"));
+                        Debug.WriteLine(input);
                         return !string.IsNullOrWhiteSpace(input) ? Regex.Match(input, @"http://\w*\.directupload\.net/images/\d*/\w*\.[a-z]{3}").Value : null;
                     }
                 }
             }
         }
 
-        public static void captureComplain()
-        {
-            
-        }
         
     }
 }

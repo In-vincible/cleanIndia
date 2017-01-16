@@ -39,3 +39,5 @@ C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanInd
 C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\obj\Debug\Registration.xaml
 C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\obj\Debug\Registration.xbf
 C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\Registration.xbf
+C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\AForge.dll
+C:\Users\Bikram Bharti\documents\visual studio 2013\Projects\cleanIndia\cleanIndia\cleanIndia.Windows\bin\Debug\AForge.xml

@@ -26,15 +26,26 @@ using System.Threading;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
 using Windows.UI.Popups;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Navigation;
+using Windows.ApplicationModel.Core;
+using Windows.Storage.Pickers;
+using Windows.Storage;
+using Windows.ApplicationModel.Activation;
+using Windows.UI.Xaml.Media.Imaging;  
 namespace cleanIndia
 {
     public sealed partial class MainPage :Page
     {
-        private void Button_Click(object sender, RoutedEventArgs e)
+       /* private void Button_Click(object sender, RoutedEventArgs e)
         {
             
             this.Frame.Navigate(typeof(Registration),null);
-       /*     string Name = name.Text;
+            string Name = name.Text;
             string Email = email.Text;
             string Number = phone.Text;
             string pass = password.Password;
@@ -42,6 +53,10 @@ namespace cleanIndia
             string url = "http://localhost:8000/api/registration/";
             Class1.register(url, holder);
             //this.Frame(typeof(Registration));
-         */   //Class1.PostRequestaa("http://technexuser.herokuapp.com/api/register/");
-        }    }
+           //Class1.PostRequestaa("http://technexuser.herokuapp.com/api/register/");
+        }
+            */
+        
+    
+    }
 }
